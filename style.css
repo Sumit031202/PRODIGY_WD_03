@@ -1,0 +1,72 @@
+* {
+            padding: 0;
+            margin: 0;
+            /* color:#E8E8E8; */
+            color: #FC814A;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #564256;
+            text-align: center;
+            /* color: #FC814A; */
+        }
+
+        .main {
+            display: inline-block;
+            margin: auto auto;
+            /* margin-top: 20px; */
+            height: 40vh;
+            width: 800px;
+            position: relative;
+            bottom:25px;
+        }
+
+        .box {
+            background-color: #FC814A;
+        }
+
+        button {
+            border-radius: 5px;
+            margin: 10px;
+            border: none;
+            height: 60px;
+            width: 60px;
+            color: #564256dc;
+            font-size: 35px;
+            /* font-weight: lighter; */
+        }
+
+        .row {
+            display: flex;
+        }
+
+        main {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .game {
+            margin: auto;
+            width: 240px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 5px;
+        }
+
+        .reset {
+            width: 120px;
+            height: 30px;
+            font-size: medium;
+            font-weight: 700;
+            border-radius: 12px;
+            color: #FC814A;
+            background-color: #96939b69;
+        }
+        .para{
+            font-size: large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
